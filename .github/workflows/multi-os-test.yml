@@ -1,4 +1,4 @@
-name: "Multi-OS Testing - YOURNAME"
+name: "Multi-OS Testing - Aman Sangha"
 on:
   push:
     branches:
@@ -16,7 +16,7 @@ jobs:
           cat /etc/os-release
 
       - name: Create test file
-        run: echo "Ubuntu test by YOURNAME" > test-ubuntu.txt
+        run: echo "Ubuntu test by Aman Sangha" > test-ubuntu.txt
 
       - name: Display file contents
         run: cat test-ubuntu.txt
@@ -31,7 +31,7 @@ jobs:
       - name: Display OS information
         run: systeminfo
       - name: Create test file
-        run: echo "Windows test by YOURNAME" > test-windows.txt
+        run: echo "Windows test by Aman Sangha" > test-windows.txt
       - name: Display file contents
         run: type test-windows.txt
       - name: Print completed message
